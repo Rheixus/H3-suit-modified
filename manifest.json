@@ -5,5 +5,20 @@
 	"name": "H3 suit modified",
 	"description": "Change the Ancestral Hunter suit and Sniper Challenge suit",
 	"authors": ["Rheixus"],
-	"frameworkVersion": "2.25.1"
+	"frameworkVersion": "2.25.1",
+	"options": [
+		{
+			"name": "Ancestral Hunter suit",
+			"type": "select",
+			"group": "Config",
+			"enabledByDefault": false,
+		        "contentFolder": ["content-ancestral"]
+		},
+		{
+			"name": "Sniper Challenge suit",
+			"type": "select",
+			"group": "Config",
+			"enabledByDefault": false,
+		        "contentFolder": ["content-SC"]
+		}
 }
