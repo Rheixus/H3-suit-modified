@@ -1,0 +1,524 @@
+{
+	"tempHash": "003EF669239322AF",
+	"tbluHash": "004FE71D6EEDA588",
+	"patch": [
+		{ "RemoveEntityByID": "3370246bb7378a86" },
+		{
+			"SubEntityOperation": [
+				"1d68dd3909556bb5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "3370246bb7378a86" },
+							{
+								"AddItemAfter": [
+									"cd365c5dee2d768a",
+									"cafec419c1c1fe2e"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cd365c5dee2d768a",
+									"cafe12239166c920"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"cd365c5dee2d768a",
+									"cafee3150acfd474"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa2b12f41c4e9a80",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_02_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fa2b12f41c4e9a80",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_05_Value",
+						"value": "#ff7d7d"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1ea3d963dd43334",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.05597795813053336,
+								"y": 0.0,
+								"z": -0.0559780181404361
+							},
+							"position": {
+								"x": 0.03649299964308739,
+								"y": 0.019082000479102135,
+								"z": 0.05416100099682808
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"14f8592b40ff2408",
+				{ "RemovePropertyByName": "Texture2D_03" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"14f8592b40ff2408",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_02_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"14f8592b40ff2408",
+				{
+					"SetPropertyValue": {
+						"property_name": "ConstantColorRGB_05_Value",
+						"value": "#f72424"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c5e4aa97e205d528",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e4fba23cb88711b7",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.05597795813053336,
+								"y": 0.0,
+								"z": -0.0559780181404361
+							},
+							"position": {
+								"x": 9.999999974752427e-7,
+								"y": 0.032037001103162766,
+								"z": 0.04795899987220764
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"76f148549f7ad8cd",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5ff0a88b4ef32f8f",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"35b0d637df759e12",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"750ff521eaecbe30",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d75c6939230dbe8b",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ac688a9438284ad7",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d0765cfa1486e7bc",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#000000"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0762f89ce0daf0a2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.05597795813053336,
+								"y": 0.0,
+								"z": -0.0559780181404361
+							},
+							"position": {
+								"x": 0.03652599826455116,
+								"y": 0.019082000479102135,
+								"z": -0.05660099908709526
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee3150acfd474",
+				{
+					"parent": "1d68dd3909556bb5",
+					"name": "Part_Glasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/hero/agent47/geometry/male_reg_agent47_sapienza.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe586cddfea691",
+				{
+					"parent": "cafe12239166c920",
+					"name": "agent47_gloves_white",
+					"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#171717"
+						},
+						"ConstantVector1D_04_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe12239166c920"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null,
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe12239166c920",
+				{
+					"parent": "1d68dd3909556bb5",
+					"name": "Mesh_Gloves",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A92C546029C638",
+								"flag": "5F"
+							}
+						}
+					},
+					"inputCopying": {
+						"ConstantVector1D_04_Value": {
+							"ConstantVector1D_04_Value": [
+								"cafe586cddfea691"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2fe1d0c070ba",
+				{
+					"parent": "cafec419c1c1fe2e",
+					"name": "Mesh",
+					"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entitytype",
+					"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zbodypartentity.class].entitytype,[modules:/zclothcollidergroupaspect.class].entitytype).pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00028ABA0C60BCF0",
+								"flag": "5F"
+							}
+						},
+						"m_ClothColliders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefe2a4a2b8449",
+				{
+					"parent": "cafec419c1c1fe2e",
+					"name": "male_reg_printworker_03_hat_01",
+					"factory": "[assembly:/_pro/characters/assets/guards/hokkaido/bodyguards/materials/male_reg_hokkaido_bodyguard_acc.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/guards/hokkaido/bodyguards/materials/male_reg_hokkaido_bodyguard_acc.mi].pc_entityblueprint",
+					"properties": {
+						"Texture2DNormal_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"ConstantVector1D_06_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eLeave"
+						},
+						"Texture2D_03_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"ConstantVector1D_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Texture2D_01_enab": {
+							"type": "bool",
+							"value": true
+						},
+						"Diffuse_Saturation_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Diffuse_Hue_Shift_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Texture2DNormal_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/guards/hokkaido/bodyguards/textures/male_reg_hokkaido_bodyguard_acc.texture?/normal_a.tex](asnormalmap).pc_tex",
+								"flag": "5F"
+							}
+						},
+						"Texture2D_03": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/guards/hokkaido/bodyguards/textures/male_reg_hokkaido_bodyguard_acc.texture?/specular_a.tex](ascolormap).pc_tex",
+								"flag": "5F"
+							}
+						},
+						"ConstantVector1D_01_Value": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#8f8f8f"
+						},
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/guards/hokkaido/bodyguards/textures/male_reg_hokkaido_bodyguard_acc.texture?/diffuse_a.tex](ascolormap).pc_tex",
+								"flag": "5F"
+							}
+						},
+						"Diffuse_Saturation_01_Value": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"Diffuse_Hue_Shift_01_Value": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafec419c1c1fe2e"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec419c1c1fe2e",
+				{
+					"parent": "1d68dd3909556bb5",
+					"name": "Earpiece_Wire_47",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+					"properties": {
+						"ConstantVector1D_01_Value": {
+							"type": "float32",
+							"value": 15.0
+						},
+						"Diffuse_Saturation_01_Value": {
+							"type": "float32",
+							"value": 0.0
+						},
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#4a4a4a"
+						}
+					},
+					"propertyAliases": {
+						"ConstantVector1D_01_Value": [
+							{
+								"originalProperty": "ConstantVector1D_01_Value",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Diffuse_Color_01_Value": [
+							{
+								"originalProperty": "Diffuse_Color_01_Value",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Diffuse_Hue_Shift_01_Value": [
+							{
+								"originalProperty": "Diffuse_Hue_Shift_01_Value",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Diffuse_Saturation_01_Value": [
+							{
+								"originalProperty": "Diffuse_Saturation_01_Value",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Texture2DNormal_01": [
+							{
+								"originalProperty": "Texture2DNormal_01",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Texture2D_01": [
+							{
+								"originalProperty": "Texture2D_01",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"Texture2D_03": [
+							{
+								"originalProperty": "Texture2D_03",
+								"originalEntity": "cafefe2a4a2b8449"
+							}
+						],
+						"m_pMeshResource": [
+							{
+								"originalProperty": "m_pMeshResource",
+								"originalEntity": "cafe2fe1d0c070ba"
+							}
+						]
+					},
+					"exposedInterfaces": {
+						"ZBodyPartEntity": "cafe2fe1d0c070ba",
+						"ZClothColliderGroupAspect": "cafe2fe1d0c070ba"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
